@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="183" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="75" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+      <class name="annotations.HwdFilms">
+        <test-method status="PASS" signature="bfMethod()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="bfMethod" is-config="true" duration-ms="31" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method status="PASS" signature="Avengers()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="Avengers" duration-ms="4" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Avengers -->
+        <test-method status="PASS" signature="bfMethod()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="bfMethod" is-config="true" duration-ms="0" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method status="PASS" signature="afMethod()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="afMethod" is-config="true" duration-ms="0" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method status="PASS" signature="Thor()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="Thor" duration-ms="0" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thor -->
+        <test-method status="PASS" signature="bfMethod()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="bfMethod" is-config="true" duration-ms="0" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method status="PASS" signature="Titanic()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="Titanic" duration-ms="4" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Titanic -->
+        <test-method status="PASS" signature="afMethod()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="afMethod" is-config="true" duration-ms="0" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method status="PASS" signature="afMethod()[pri:0, instance:annotations.HwdFilms@482f8f11]" name="afMethod" is-config="true" duration-ms="0" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+      </class> <!-- annotations.HwdFilms -->
+    </test> <!-- Test -->
+    <test name="Practise" duration-ms="16" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+      <class name="annotations.BwdMovies">
+        <test-method status="PASS" signature="airLift()[pri:0, instance:annotations.BwdMovies@3e6fa38a]" name="airLift" duration-ms="4" started-at="2020-07-07T16:48:04Z" finished-at="2020-07-07T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airLift -->
+        <test-method status="PASS" signature="race(java.lang.String, int)[pri:0, instance:annotations.BwdMovies@3e6fa38a]" name="race" duration-ms="0" started-at="2020-07-07T16:48:04Z" data-provider="testDataPro" finished-at="2020-07-07T16:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7004]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- race -->
+        <test-method status="PASS" signature="race(java.lang.String, int)[pri:0, instance:annotations.BwdMovies@3e6fa38a]" name="race" duration-ms="0" started-at="2020-07-07T16:48:04Z" data-provider="testDataPro" finished-at="2020-07-07T16:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ameet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7009]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- race -->
+      </class> <!-- annotations.BwdMovies -->
+    </test> <!-- Practise -->
+  </suite> <!-- Suite -->
+</testng-results>

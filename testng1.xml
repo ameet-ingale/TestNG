@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="password" value="78821"/>
+  <test name="Test">  
+   <groups>	
+	 <run>	
+   	   <include name="regression"/>
+    </run>	
+   </groups>
+  <classes> 
+      <class name="annotations.BwdMovies"/>
+      <class name="annotations.HwdFilms"/>
+  </classes>
+  </test>
+  <test name="Practise">
+  <parameter name="username" value="aingale"/>
+    <classes>
+      <class name="annotations.WebSeries">
+      <methods>
+         <exclude name="gameOfThrones"></exclude>
+     </methods>
+     </class>
+     </classes>
+    </test>
+</suite>
